@@ -1,0 +1,47 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.env
+
+# Virtual environment
+env/
+venv/
+
+# Large dataset folders
+ECG_IMAGES_DATASET/
+colabs/
+Final_Dataset/
+preprocessed_1d/
+preprocessed_images/
+docs/
+img/
+video/
+
+# Other common ignores
+.DS_Store
+*.log
+*.zip
+*.tar.gz
+*.pdf
+*.docx
+*.mp4
+*.gif
+*.png
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Caches and temporary files
+*.cache
+*.bak
+
+# Generated files during preprocessing
+*.csv
+*.png
